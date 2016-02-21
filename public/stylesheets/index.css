@@ -1,0 +1,56 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Merriweather', serif;
+
+    min-height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #202A70;
+}
+
+a {
+    color: #202A70;
+    text-decoration: none;
+}
+
+#menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-top: 25px;
+    width: 35%;
+}
+
+.header {
+    font-size: 34px;
+    margin-bottom: 15px;
+
+    background-color: #202A70;
+    color: transparent;
+    text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.inset-image {
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+}
+
+#cover-photo {
+    height: 140px;
+    width: 140px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../images/header.jpeg");
+}
+
+.menu-item {
+    font-size: 14px;
+}
